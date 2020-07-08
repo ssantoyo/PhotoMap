@@ -20,10 +20,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAG-Cj-DDC">
+                                <rect key="frame" x="10" y="65" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
+                                <state key="normal" title="Photos">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapPhotos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oKr-dr-gLx"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j22-aG-kr4">
-                                <rect key="frame" x="171" y="590" width="32" height="30"/>
+                                <rect key="frame" x="172" y="588" width="30" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="camera-l-1"/>
+                                <connections>
+                                    <action selector="onTapCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gWm-oy-NUb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -38,7 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1005.6" y="-564.46776611694156"/>
+            <point key="canvasLocation" x="1004" y="-565.36731634182911"/>
         </scene>
         <!--Locations View Controller-->
         <scene sceneID="Djr-iU-KIi">
@@ -121,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qJ-1M-XUx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1874.4000000000001" y="-572.56371814092961"/>
+            <point key="canvasLocation" x="1872.8" y="-573.46326836581716"/>
         </scene>
         <!--Full Image View Controller-->
         <scene sceneID="Qsj-fY-ewc">
